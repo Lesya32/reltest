@@ -78,8 +78,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'mssql',
         'NAME': 'RAILWAYS_test',
-        "USER": "test_db",
-        "PASSWORD": "test_db",
+        "USER": "",
+        "PASSWORD": "",
         "HOST": "DC1-SERV\RAILWAYSEXPRESS",
         "PORT": "",
         "OPTIONS": {"driver": "ODBC Driver 17 for SQL Server"},
