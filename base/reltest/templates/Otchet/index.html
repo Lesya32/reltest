@@ -1,0 +1,14 @@
+{% extends 'Otchet/layout.html' %}
+
+
+{% block Title %}
+
+{% endblock %}
+
+{% block content %}
+    {% for el in news %}
+        <p>{{el}}</p>
+    {% endfor %}
+
+
+{% endblock %}
